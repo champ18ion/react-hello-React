@@ -1,18 +1,18 @@
 {
-  "name": "react",
-  "version": "0.0.0",
-  "private": true,
+  "name": "project",
   "dependencies": {
-    "react": "^18.1.0",
-    "react-dom": "^18.1.0"
-  },
-  "scripts": {
-    "start": "react-scripts start",
-    "build": "react-scripts build",
-    "test": "react-scripts test --env=jsdom",
-    "eject": "react-scripts eject"
+    "react": "17.0.2",
+    "react-dom": "17.0.2"
   },
   "devDependencies": {
-    "react-scripts": "latest"
+    "webpack": "^2.0",
+    "babel-core": "^6.0",
+    "babel-loader": "^7.0",
+    "babel-preset-env": "*",
+    "babel-preset-react": "*"
+  },
+  "scripts": {
+    "build": "webpack",
+    "watch": "webpack -w"
   }
 }
